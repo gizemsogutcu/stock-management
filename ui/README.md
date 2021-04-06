@@ -1,24 +1,12 @@
-# ui
+# Stock Management Application
 
-## Project setup
-```
-npm install
-```
+*Stock management application is a basic crud application using vue.js and spring boot. Application has only one table in PostgreSQL. You can add new product, delete product on the list or  update specific product in the application.*
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+**NOTE: If you want to run this application, you need to create the database locally, and you need to edit the connection information according to yourself.**
 
-### Compiles and minifies for production
-```
-npm run build
-```
+The application has two modules: api and ui. 
 
-### Lints and fixes files
-```
-npm run lint
-```
+![](https://github.com/gizemsogutcu/stock-management/blob/master/ui/resources/project-structure.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ - **ui:** frontend layer (vue.js)
+ - **api:** service layer (spring boot)
